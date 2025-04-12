@@ -132,10 +132,10 @@ int main() {
         }
         
         // Print summary
-        std::cout << "\n===========================================================" << std::endl;
+        std::cout << "\n---------------------------------------------------------" << std::endl;
         std::cout << "Program terminated." << std::endl;
         std::cout << "Total simulated key presses: " << g_key_count << std::endl;
-        std::cout << "===========================================================" << std::endl;
+        std::cout << "---------------------------------------------------------" << std::endl;
         
     } catch (const bego::InputError& e) {
         std::cerr << "FATAL BEGO ERROR: " << e.what() << std::endl;
