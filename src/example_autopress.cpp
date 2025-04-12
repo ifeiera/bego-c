@@ -14,15 +14,15 @@ std::atomic<int> g_key_count = 0;
 
 // Print a header with nice formatting
 void printHeader() {
-    std::cout << "\n===========================================================" << std::endl;
+    std::cout << "\n---------------------------------------------------------" << std::endl;
     std::cout << "             BEGO-C AUTO-PRESS EXAMPLE" << std::endl;
-    std::cout << "===========================================================" << std::endl;
+    std::cout << "---------------------------------------------------------" << std::endl;
     std::cout << "This example demonstrates hardware-level auto-pressing using Bego-C." << std::endl;
     std::cout << "Instructions:" << std::endl;
     std::cout << "  1. Press and hold Mouse Forward (X2) button to trigger auto-press" << std::endl;
     std::cout << "  2. The program will simulate 'k' key presses at hardware level" << std::endl;
     std::cout << "  3. Press [ESC] key at any time to exit" << std::endl;
-    std::cout << "===========================================================" << std::endl;
+    std::cout << "---------------------------------------------------------" << std::endl;
 }
 
 // Thread function to poll button state
